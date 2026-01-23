@@ -1,0 +1,58 @@
+/* Access code for Lab-1: 650388 */
+
+header{
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    margin-right: 1100px;
+    font-size: 1.5em;
+    border-color: #333;
+    border-style: solid;
+    border-radius: 0%;
+    font-style: normal;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+
+h2{
+    font-size: 3.3em;
+    margin: 0;
+}
+
+header > p{
+    font-size: 1.6em;
+    margin: 0;
+    font-style: bold;
+    font-weight: 700;
+
+    
+}
+
+main{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+
+    width: 70%;
+    background-color: white;
+    margin: 10px auto;
+	padding: 5%;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.75);
+    column-count: 3;
+
+    text-indent: 2em;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
