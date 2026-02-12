@@ -29,13 +29,10 @@ main { display: grid;
   margin: 2rem auto; 
   padding: 1rem; 
 }
-main p {
-  background-color: orange;
-  padding: 10px;
-  border-radius: 15px;
-  margin: 20px;
-  
-  
+main > section { 
+  background: hwb(0 15% 3%); 
+  padding: 1.5rem; 
+  border-radius: 8px; 
 }
 
 img{
