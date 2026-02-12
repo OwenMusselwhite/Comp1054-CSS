@@ -45,6 +45,12 @@ main > section h2, main > section h3 {
   white-space: pre-line; 
   line-height: 1.6; }
 
+aside { 
+  background: hwb(0 15% 3%); 
+  padding: 1.5rem; 
+  border-radius: 8px; 
+}
+
 img{
   display: block;
   margin-left: auto;
