@@ -51,6 +51,11 @@ aside {
   border-radius: 8px; 
 }
 
+aside h2 { 
+  font-family: "Playfair Display", serif; 
+  margin-bottom: 0.5rem; 
+}
+
 img{
   display: block;
   margin-left: auto;
