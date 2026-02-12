@@ -23,9 +23,11 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-main {
-  column-count: 2;
-
+main { display: grid; 
+  grid-template-columns: 2fr 1fr; 
+  gap: 2rem; max-width: 1000px; 
+  margin: 2rem auto; 
+  padding: 1rem; 
 }
 main p {
   background-color: orange;
