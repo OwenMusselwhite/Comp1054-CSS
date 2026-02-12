@@ -1,6 +1,6 @@
 /* Main CSS for Assignment 1 */
  html{
-  background-color: black;
+  background-color: #30000B;
 
  }
 
@@ -27,6 +27,11 @@ main {
 
 }
 main p {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+  
   
 }
 
