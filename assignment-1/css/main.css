@@ -1,10 +1,16 @@
 /* Main CSS for Assignment 1 */
- html{
+
+ html{ /*black background for page*/
   background-color: #141414;
-  
  }
 
-h1{
+ img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{ /*Title styling*/
   text-align: center;
   font-family: Brush Script MT;
   color: White;
@@ -14,38 +20,50 @@ h1{
 
 }
 
-h2{
+
+/*-----------------------*/
+/* Body Styling */
+h2{ /*Section heading styling*/
   text-align: center;
   font-family: Brush Script MT;
+  
 }
 
-body {
+body { /*General body styling*/
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-main { 
+
+main { /* Main content styling */
   display: grid; 
   grid-template-columns: 2fr 1fr; 
   gap: 2rem; max-width: 1000px; 
   margin: 2rem auto; 
   padding: 1rem; 
 }
-main > section { 
+
+main > section { /* Section styling */
   background: hwb(0 15% 3%); 
   padding: 1.5rem; 
   border-radius: 8px; 
   
 }
 
-main > section h2, main > section h3 { 
+main > section h2, main > section h3 { /* Section and article heading styling */
   font-family: "Playfair Display", serif;
  }
 
- main > section p { 
+ main > section p {  /* Paragraph styling */
   font-family: "Roboto", sans-serif; 
   white-space: pre-line; 
   line-height: 1.6; }
 
+  header, main, footer {
+  margin-bottom: 2rem;
+}
+
+/*-----------------------*/
+/*Aside styling*/
 aside { 
   background: hwb(0 20% 10%); 
   padding: 1.5rem; 
@@ -62,24 +80,9 @@ aside p, aside li {
   line-height: 1.5; 
 }
 
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header, main, footer {
-  margin-bottom: 2rem;
-}
-
 main > section, aside {
   border: 2px solid rgb(202, 202, 202);
 }
-
-
-
-
-
 
 
 /*-----------------------*/
@@ -88,11 +91,15 @@ footer { background: hwb(0 15% 3%);
   padding: 1.5rem; border-radius: 8px; 
   margin-top: 2rem; color: white; 
   font-family: "Roboto", sans-serif; 
-  line-height: 1.5; }
+  line-height: 1.5; 
+  border-top: 2px white solid; 
+}
 
   footer p { 
     margin-bottom: 0.75rem; 
     text-align: center; 
+    
+    padding-top: 0.75rem;
   }
   footer ul { 
     list-style: none; 
