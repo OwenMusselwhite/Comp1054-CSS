@@ -73,6 +73,8 @@ aside {
 aside h2 { 
   font-family: "Playfair Display", serif; 
   margin-bottom: 0.5rem; 
+  padding-bottom: 0.25rem; 
+  border-bottom: 1px solid rgba(255,255,255,0.2); 
   
 }
 
@@ -84,8 +86,6 @@ aside p, aside li {
 main > section, aside {
   border: 4px solid rgb(202, 202, 202);
 }
-
-
 
 aside p, aside ul {  
 margin-bottom: 1.5rem; }
