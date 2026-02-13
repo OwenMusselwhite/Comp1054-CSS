@@ -98,7 +98,7 @@ footer { background: hwb(0 15% 3%);
   footer p { 
     margin-bottom: 0.75rem; 
     text-align: center; 
-    
+    font-family:'Gill Sans';
     padding-top: 0.75rem;
   }
   footer ul { 
@@ -106,4 +106,9 @@ footer { background: hwb(0 15% 3%);
     padding: 0; 
     margin: 0.5rem 0 1rem 0; 
     text-align: center; 
+  }
+
+  footer ul li { 
+    display: inline; 
+    margin: 0 1rem; 
   }
