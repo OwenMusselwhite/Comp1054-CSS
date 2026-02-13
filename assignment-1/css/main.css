@@ -27,6 +27,13 @@ h2{ /*Section heading styling*/
   text-align: center;
   font-family: Brush Script MT;
   
+  
+}
+
+header p { /*Header paragraph styling*/
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 1.2rem;
 }
 
 body { /*General body styling*/
@@ -60,6 +67,10 @@ main > section h2, main > section h3 { /* Section and article heading styling */
 
   header, main, footer {
   margin-bottom: 2rem;
+}
+
+h3, aside h2, footer p, h2{
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
 /*-----------------------*/
