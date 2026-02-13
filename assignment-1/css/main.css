@@ -73,6 +73,7 @@ aside {
 aside h2 { 
   font-family: "Playfair Display", serif; 
   margin-bottom: 0.5rem; 
+  
 }
 
 aside p, aside li { 
@@ -83,6 +84,11 @@ aside p, aside li {
 main > section, aside {
   border: 4px solid rgb(202, 202, 202);
 }
+
+
+
+aside p, aside ul {  
+margin-bottom: 1.5rem; }
 
 
 /*-----------------------*/
@@ -100,6 +106,8 @@ footer { background: hwb(0 15% 3%);
     text-align: center; 
     font-family:'Gill Sans';
     padding-top: 0.75rem;
+
+    
   }
   footer ul { 
     list-style: none; 
@@ -111,4 +119,14 @@ footer { background: hwb(0 15% 3%);
   footer ul li { 
     display: inline; 
     margin: 0 1rem; 
+    
+  }
+
+  footer ul li a { 
+    color: rgb(229, 255, 0); 
+    text-decoration: none; 
+  }
+
+  footer ul li a:hover { 
+    text-decoration: underline; 
   }
