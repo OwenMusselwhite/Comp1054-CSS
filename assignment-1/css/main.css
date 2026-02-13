@@ -54,7 +54,7 @@ main > section h2, main > section h3 { /* Section and article heading styling */
  }
 
  main > section p {  /* Paragraph styling */
-  font-family: "Roboto", sans-serif; 
+  font-family: "Georgia", sans-serif; 
   white-space: pre-line; 
   line-height: 1.6; }
 
@@ -76,12 +76,12 @@ aside h2 {
 }
 
 aside p, aside li { 
-  font-family: "Roboto", sans-serif; 
+  font-family: Libre Baskerville, serif; 
   line-height: 1.5; 
 }
 
 main > section, aside {
-  border: 2px solid rgb(202, 202, 202);
+  border: 4px solid rgb(202, 202, 202);
 }
 
 
