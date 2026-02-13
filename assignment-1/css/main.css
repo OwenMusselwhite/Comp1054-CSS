@@ -8,13 +8,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 4px solid white;
 }
 
 h1{ /*Title styling*/
   text-align: center;
   font-family: Brush Script MT;
   color: White;
-  background: linear-gradient(to right, #ff4d4d, #ffb347); 
   font-size: 3.5rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 
