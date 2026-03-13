@@ -4,7 +4,7 @@ html{
 
 body {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     color: #222;
     background: #f8f8f8;
 }
@@ -13,7 +13,7 @@ h1, h2 {
     font-family: Georgia, "Times New Roman", serif;
     font-weight: normal;
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 h1 {
@@ -29,11 +29,12 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
 }
 
 article {
-    column-count: 2;
+    column-width: 350px;
     column-gap: 2rem;
 }
 
@@ -52,6 +53,15 @@ footer {
     color: #666;
 }
 
+article h2:first-of-type{ /*The road well travelled text*/
+    font-size: 2.4em;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: bold;
+    letter-spacing: 0.0001px;
+    
+}
+
 img {
     
 }
@@ -59,8 +69,6 @@ img {
 
 
   
-
-
 
 
 
