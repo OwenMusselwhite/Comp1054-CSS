@@ -1,19 +1,19 @@
 
-body {
+body { /*General body styling*/
     font-family: "Helvetica Neue", Arial, sans-serif;
     line-height: 1.2;
     color: #222;
     background: #f8f8f8;
 }
 
-h1, h2 {
+h1, h2 { /*Heading styling*/
     font-family: Georgia, "Times New Roman", serif;
     font-weight: normal;
     margin-top: 2rem;
     margin-bottom: 0rem;
 }
 
-h1 {
+h1 { /*Main title styling*/
     font-size: 1.3rem;
     color: orange;
     text-transform: uppercase;
@@ -27,7 +27,7 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
+h2 { /*Section heading styling*/
     font-size: .8em;
     margin: 0;
     padding: 0;
@@ -37,12 +37,12 @@ h2 {
     word-spacing: -0.1em;
 }
 
-article {
+article { /*Article styling*/
     columns: 2;
     column-gap: 2rem;
 }
 
-body > div {
+body > div { /*Container styling*/
     max-width: 900px;
     margin: 0 auto;
     background: white;
@@ -93,9 +93,10 @@ article p:first-of-type {
     text-align: center;
 }
 
+
 /*-----------------------*/
 
-footer {
+footer { /*Footer styling*/
     margin-top: 3rem;
     text-align: left;
     font-size: 0.8rem;
@@ -105,7 +106,7 @@ footer {
     text-transform: uppercase;
 }
 
-footer time{
+footer time{ /*Footer time styling*/
     font-style: normal;
     color: grey;
 }
