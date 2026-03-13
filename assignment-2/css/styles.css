@@ -31,8 +31,10 @@ h1 {
 }
 
 h2 {
+    font-size: 1.1rem;
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 article {
@@ -56,14 +58,15 @@ article h2:first-of-type{ /*The road well travelled text*/
     text-align: center;
     margin-top: .5em;
     text-decoration: bold;
-    letter-spacing: 0px;
+    letter-spacing: -2.1px;
     font-weight: bold;
-
+    margin-bottom: .5rem;
+    
     
 }
 
 article p {
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
