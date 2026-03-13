@@ -28,13 +28,13 @@ h1 {
 }
 
 h2 {
-    font-size: .9em;
+    font-size: .8em;
     margin: 0;
     padding: 0;
-    color: black;
+    color: rgb(26, 26, 26);
     font-weight: bold;
     font-style: normal;
-    word-spacing: -0.15em;
+    word-spacing: -0.1em;
 }
 
 article {
@@ -67,9 +67,19 @@ article h2:first-of-type{ /*The road well travelled text*/
     
 }
 
+article p:last-of-type{ /*for the Gordon Pitts Text*/
+    text-align: right;
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    font-size: .8rem;
+    position: relative;
+    bottom: 1.1rem;
+
+}
+
 article p { /*main text styling*/
-    margin-top: 0rem;
-    margin-bottom: 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
     font-size: .9rem;
     text-align: justify;
     color: rgb(62, 62, 62);
