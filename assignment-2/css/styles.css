@@ -17,9 +17,15 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    position: relative;
+    font-size: 1.3rem;
+    color: orange;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border-left: 1px solid #000000;
+    padding-left: 0.5rem;
+    border-right: 1px solid #000000;
+    padding-right: 0.5rem;
 }
 
 h2 {
