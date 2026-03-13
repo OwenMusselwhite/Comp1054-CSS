@@ -42,6 +42,20 @@ article {
     column-gap: 2rem;
 }
 
+/* Make paragraphs 2 and 3 into two mini-columns */
+article p:nth-of-type(2),
+article p:nth-of-type(3) {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    background: #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+
+
 
 body > div {
     max-width: 900px;
@@ -65,6 +79,10 @@ article h2:first-of-type{ /*The road well travelled text*/
     margin-bottom: .5rem;
     
     
+}
+
+article p:first-of-type { /*for the first paragraph*/
+    margin-bottom: 0.7rem;
 }
 
 article p:last-of-type{ /*for the Gordon Pitts Text*/
@@ -111,4 +129,14 @@ footer time{
 
 
 
-
+article p:nth-of-type(2),
+article p:nth-of-type(3) {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    background: #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    break-inside: avoid;
+}
