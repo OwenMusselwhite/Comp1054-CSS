@@ -48,6 +48,24 @@ body > div {
 }
 
 
+
+
+article h2:first-of-type{ /*The road well travelled text*/
+    font-size: 2.4em;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: bold;
+    letter-spacing: 0.0001px;
+    
+}
+
+article p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
 footer {
     margin-top: 3rem;
     text-align: left;
@@ -62,21 +80,6 @@ footer time{
     font-style: normal;
     color: grey;
 }
-
-article h2:first-of-type{ /*The road well travelled text*/
-    font-size: 2.4em;
-    text-align: center;
-    margin-top: 0;
-    text-decoration: bold;
-    letter-spacing: 0.0001px;
-    
-}
-
-img {
-    
-}
-
-
 
   
 
