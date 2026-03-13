@@ -47,15 +47,18 @@ body > div {
     padding: 2rem;
 }
 
-
-
+article strong:first-of-type {
+    color: orange;
+}
 
 article h2:first-of-type{ /*The road well travelled text*/
-    font-size: 2.4em;
+    font-size: 2em;
     text-align: center;
-    margin-top: 0;
+    margin-top: .5em;
     text-decoration: bold;
-    letter-spacing: 0.0001px;
+    letter-spacing: 0px;
+    font-weight: bold;
+
     
 }
 
@@ -64,6 +67,8 @@ article p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
+    color: rgb(62, 62, 62);
+    word-spacing: 0em;
 }
 
 footer {
@@ -81,7 +86,7 @@ footer time{
     color: grey;
 }
 
-  
+ 
 
 
 
