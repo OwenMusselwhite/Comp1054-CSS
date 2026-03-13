@@ -38,24 +38,9 @@ h2 {
 }
 
 article {
-    column-width: 350px;
+    columns: 2;
     column-gap: 2rem;
 }
-
-/* Make paragraphs 2 and 3 into two mini-columns */
-article p:nth-of-type(2),
-article p:nth-of-type(3) {
-    display: inline-block;
-    width: 48%;
-    vertical-align: top;
-    background: #eee;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-}
-
-
-
 
 body > div {
     max-width: 900px;
@@ -126,17 +111,3 @@ footer time{
 }
 
  
-
-
-
-article p:nth-of-type(2),
-article p:nth-of-type(3) {
-    display: inline-block;
-    width: 48%;
-    vertical-align: top;
-    background: #eee;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    break-inside: avoid;
-}
