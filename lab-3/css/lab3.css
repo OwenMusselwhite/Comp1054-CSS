@@ -63,11 +63,12 @@ html {
 	border-top: none;
 }
 
-
-[role="tabpanel"]:first-of-type {
+[role="tabpanel"]:target {
 	display: block;
 }
 
+/*Looked up ways to display the tabs when clicked, used this site
+https://www.w3schools.com/cssref/sel_target.php/*
 
 
 
