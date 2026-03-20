@@ -36,5 +36,19 @@ html {
 }
 
 
+[role="tab"] a {
+	display: block;
+	padding: 15px;
+	background-color: #ddd;
+	border: 1px solid #999;
+	border-bottom: none;
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+
+
 
 
