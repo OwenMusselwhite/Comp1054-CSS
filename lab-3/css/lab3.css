@@ -17,11 +17,24 @@ html {
 	margin: 0 auto;
 }
 
-/* STEP 3a: Basic styling for the DETAILS element */
-details {
-	border: 5px solid gray;
-	background-color: lightgrey;
-
+/*Accordion styling */
+.tabs {
+	border: 1px solid #999;
+	background-color: #fff;
 }
+
+/* Style tab list as accordion headers */
+[role="tablist"] {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Tab buttons (accordion headers) */
+[role="tab"] {
+	margin: 0;
+}
+
+
 
 
