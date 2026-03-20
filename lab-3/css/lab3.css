@@ -28,17 +28,19 @@ html {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /* Tab buttons (accordion headers) */
 [role="tab"] {
 	margin: 0;
+	flex: auto;
 }
-
 
 [role="tab"] a {
 	display: block;
-	padding: 15px;
+	padding: 15px 20px;
 	background-color: #ddd;
 	border: 1px solid #999;
 	border-bottom: none;
@@ -59,6 +61,11 @@ html {
 	background-color: #fff;
 	border: 1px solid #999;
 	border-top: none;
+}
+
+
+[role="tabpanel"]:first-of-type {
+	display: block;
 }
 
 
