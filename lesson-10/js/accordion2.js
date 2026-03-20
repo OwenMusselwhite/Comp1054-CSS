@@ -1,8 +1,12 @@
 // STEP 6: Nab all the SUMMARY elements
+const details = document.querySelectorAll("details");
 
 
 // STEP 7: Loop through the element array, and add an event listener for the toggle event
-
+details.forEach((detail) => {
+	console.log(detail);
+	detail.addEventListener("toggle", closeOpenDetails);
+});
 	
 		// STEP 8a: Check to see whether the DETAILS event that was toggled has the "open" attribute
 		
