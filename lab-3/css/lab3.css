@@ -16,3 +16,12 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
+
+/* STEP 3a: Basic styling for the DETAILS element */
+details {
+	border: 5px solid gray;
+	background-color: lightgrey;
+
+}
+
+
