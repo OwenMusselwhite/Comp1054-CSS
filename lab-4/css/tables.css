@@ -1,71 +1,68 @@
 @charset "utf-8";
 
-body{
-    margin: 0;
-    padding: 0;
-}
-html {
+html { /*general page styling*/
     font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-/* STEP 7: Collapse borders */
+/*Collapse borders */
 table {
     border-collapse: collapse;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(odd) { /*Striped rows*/
     background-color: rgb(239, 238, 238);
 }
 
-td {
-    padding: 0.5em;
+td { /*Cell padding*/
+    padding: 1em;
 }
 
-td:nth-child(7) {
+td:nth-child(7) { /*Highlighting the "Total" column*/
     color: green;
 }
 
-td.negative {
+td.negative {/*Highlighting negative values in the "Total" column*/
     color: red;
 }   
 
-th {
+th {/*Header styling*/
     background: rgba(225,225,225,1);
 }
 
-tbody th {
+tbody th {/*Highlighting the "Name" column*/
     text-align: center;
 }
 
-tfoot td {
+tfoot td {/*Footer styling*/
     font-size: 60%;
 }
-caption {
+caption {/*Caption styling*/
     font-size: 150%;
 }
 
-html, body { 
+html, body { /*General page layout styling*/
     height:100%; 
 }
 
-body {
+body { /*Flexbox centering*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
 }
-main { 
+
+main { /*Main content styling*/
     width:100%; 
     max-width:900px; 
     padding:1rem; 
     box-sizing:border-box; 
 }
 
-header, footer { 
+header, footer {  /*Header and footer styling*/
     text-align:center; 
     width:100%; 
 }
 
-table { 
+table { /*Table styling*/
     width:100%; 
 }
