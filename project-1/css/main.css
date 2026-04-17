@@ -37,7 +37,7 @@ header h1 {
     4px 4px 0 #000; 
 }
 
-svg {
+svg { /*getting rid of the giant stars*/
   display: none;
 }
 
@@ -86,5 +86,26 @@ svg {
 #about > .container:first-of-type blockquote {
   border-left: none;
   font-style: normal;
+}
+
+
+a { /*making links look like holograms*/
+  color: #00eaff;
+  text-decoration: none;
+  font-weight: 500;
+
+  /* glow */
+  text-shadow:
+    0 0 4px #00eaff,
+    0 0 8px #00eaff,
+    0 0 12px #00eaff;
+}
+
+a:hover {
+  color: #7dfcff;
+  text-shadow:
+    0 0 6px #7dfcff,
+    0 0 12px #7dfcff,
+    0 0 18px #7dfcff;
 }
 
