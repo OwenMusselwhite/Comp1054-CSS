@@ -60,7 +60,7 @@ svg { /*getting rid of the giant stars*/
 
 
 /*everything in header and the first container in about section looking like star wars intro*/
-#about > .container:first-of-type, header, nav {
+#about > .container:first-of-type, header, nav, section {
   color: #f6c700;
   text-align: center;
   font-family: "Orbitron", sans-serif;
@@ -151,4 +151,24 @@ a:hover {
     0 0 12px #7dfcff,
     0 0 18px #7dfcff;
 }
+
+section:nth-of-type(2) {
+    color: #f6c709;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+}
+
+section:nth-of-type(2) > p{
+    color: #f6c709;
+    position: relative;
+    top: 4rem;
+    font-size: 1.25rem;
+}
+
+
+
+
+
 
