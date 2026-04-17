@@ -57,3 +57,34 @@ svg {
     0 0 30px #f6c700,
     4px 4px 0 #000; 
 }
+
+
+/*everything in header and the first container in about section looking like star wars intro*/
+#about > .container:first-of-type, header, nav {
+  color: #f6c700;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+
+  max-width: 800px;
+  margin: 0 auto;
+
+  /*tilt */
+  transform-origin: 50% 100%;
+  transform: perspective(400px) rotateX(20deg);
+  opacity: 0.9;
+}
+
+/* Make all text yellow */
+#about > .container:first-of-type h2,
+#about > .container:first-of-type p,
+#about > .container:first-of-type blockquote,
+#about > .container:first-of-type a {
+  color: #f6c700;
+}
+
+/*make the blockquote look like part of the intro */
+#about > .container:first-of-type blockquote {
+  border-left: none;
+  font-style: normal;
+}
+
