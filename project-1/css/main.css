@@ -7,16 +7,23 @@
 html {
   background-image: url("../img/space.jpg");
     background-repeat: repeat;
-    color: white;  
+    color: rgb(255, 255, 255);  
 }
 
 
 header h1 {
+    color: yellow;
   font-family: "Orbitron", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
+  font-size: 4rem;
+  line-height: 0.9;
+
+  /*learned how to rotate it like this at: https://www.w3schools.com/Cssref/css_pr_rotate.php*/
+  transform: perspective(400px) rotateX(25deg);
+
   
   
   /* Gold/yellow outline */
@@ -32,4 +39,21 @@ header h1 {
 
 svg {
   display: none;
+}
+
+.skip-link {
+  color: yellow;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  transform: perspective(400px) rotateX(25deg);
+}
+
+.skip-link:hover {
+  text-decoration: underline;
+  text-shadow:
+    0 0 10px #f6c700,
+    0 0 20px #f6c700,
+    0 0 30px #f6c700,
+    4px 4px 0 #000; 
 }
