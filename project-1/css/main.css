@@ -71,16 +71,39 @@ svg { /*getting rid of the giant stars*/
   /*tilt */
   transform-origin: 50% 100%;
   transform: perspective(400px) rotateX(20deg);
+
+  /*glow*/
   opacity: 0.9;
+  text-shadow:
+    0 0 5px #f6c700,
+    0 0 10px #f6c700,
+    0 0 15px #f6c700,
+    2px 2px 0 #000; 
 }
 
 /* Make all text yellow */
 #about > .container:first-of-type h2,
 #about > .container:first-of-type p,
-#about > .container:first-of-type blockquote,
-#about > .container:first-of-type a {
-  color: #f6c700;
+#about > .container:first-of-type blockquote{
+    color: #f6c700;
 }
+
+#about > .container:first-of-type a { /*styling links in intro*/
+  color: #f6c709;
+  text-shadow:
+    0 0 5px #ffefa8,
+    0 0 10px hsl(49, 77%, 71%),
+    0 0 15px #ffec98,
+    2px 2px 0 #000; 
+}
+#about > .container:first-of-type a:hover {
+  text-shadow:
+    0 0 10px #ffffff,
+    0 0 15px hsl(0, 0%, 21%),
+    0 0 30px #ffec98,
+    2px 2px 0 #000; 
+}
+
 
 /*make the blockquote look like part of the intro */
 #about > .container:first-of-type blockquote {
