@@ -101,10 +101,12 @@ ul{
     padding: 0 1rem;
 }
 
+/*first List*/
 ul:nth-child(1){
     position: relative;
     top: 4rem;
 }
+
 
  li{
     position: relative;
@@ -187,7 +189,7 @@ section:nth-of-type(2) > p{
     font-size: 1.25rem;
 }
 
-
+/*footer styling*/
 footer {
   position: relative;
   background: #0a0a0a;
@@ -210,6 +212,7 @@ border-top: 3px solid #e50914;
   );
 }
 
+/*footer list styling*/
 aside{
     position: relative;
     text-align: center;
