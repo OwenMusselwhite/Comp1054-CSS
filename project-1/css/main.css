@@ -191,6 +191,10 @@ border-top: 3px solid #e50914;
   );
 }
 
+aside{
+    position: relative;
+    text-align: center;
+}
 
 footer a {
   color: #e50914;
