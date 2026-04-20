@@ -192,6 +192,25 @@ border-top: 3px solid #e50914;
 }
 
 
+footer a {
+  color: #e50914;
+  text-decoration: none;
+  font-weight: bold;
+
+  text-shadow:
+    0 0 5px #e50914,
+    0 0 10px #e50914,
+    0 0 15px #e50914;
+}
+
+footer a:hover {
+  color: #ff3b3f;
+  text-shadow:
+    0 0 6px #ff3b3f,
+    0 0 12px #ff3b3f,
+    0 0 18px #ff3b3f;
+}
+
 
 
 
