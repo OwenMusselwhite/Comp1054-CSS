@@ -216,6 +216,21 @@ footer a:hover {
 }
 
 
+/*phone styling*/
+@media (max-width: 700px) {
+
+  /* Remove tilt on mobile */
+  #about > .container:first-of-type,
+  header,
+  nav {
+    transform: none;
+    text-shadow: none;
+    opacity: 1;
+  }
+}
+    
+
+
 
 
 
