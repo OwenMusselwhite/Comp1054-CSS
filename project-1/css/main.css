@@ -22,7 +22,7 @@ header h1 {
   line-height: 0.9;
 
   /*learned how to rotate it like this at: https://www.w3schools.com/Cssref/css_pr_rotate.php*/
-  transform: perspective(400px) rotateX(25deg);
+  transform: perspective(200px) rotateX(25deg);
 
   
   
@@ -59,7 +59,7 @@ svg { /*getting rid of the giant stars*/
 }
 
 
-/*everything in header and the first container in about section looking like star wars intro*/
+/*everything in header and container and about section looking like star wars intro*/
 #about > .container:first-of-type, header, nav, section {
   color: #f6c700;
   text-align: center;
@@ -90,7 +90,7 @@ nav{
   transform: perspective(400px) rotateX(20deg);
 }
 
-li{
+ li{
     position: relative;
     top: 4rem;
     display: inline-block;
@@ -114,6 +114,7 @@ li{
     0 0 15px #ffec98,
     2px 2px 0 #000; 
 }
+
 #about > .container:first-of-type a:hover {
   text-shadow:
     0 0 10px #ffffff,
@@ -146,7 +147,7 @@ a { /*making links look like holograms*/
 
 a:hover {
   color: #7dfcff;
-  text-shadow:
+  text-shadow: 
     0 0 6px #7dfcff,
     0 0 12px #7dfcff,
     0 0 18px #7dfcff;
@@ -168,6 +169,16 @@ section:nth-of-type(2) > p{
 }
 
 
+footer {
+  position: relative;
+  background: #0a0a0a;
+  padding: 4rem;
+  text-align: center;
+
+  font-family: "Orbitron", sans-serif;
+  color: #e6e6e6;
+
+}
 
 
 
